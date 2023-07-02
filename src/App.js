@@ -26,47 +26,7 @@ function App() {
       foto: "https://github.com/VenturaDorantes.png",
       equipo: "Front End",
       fav: true
-    },
-    {
-      id : uuid(),
-      nombre: "Harland Lohora",
-      puesto: "Instructor",
-      foto: "https://github.com/harlandlohora.png",
-      equipo: "Front End",
-      fav: false
-    },
-    {
-      id : uuid(),
-      nombre: "Genesys Rondón",
-      puesto: "Desarrolladora de software e instructora",
-      foto: "https://github.com/genesysaluralatam.png",
-      equipo: "Data Science",
-      fav: true
-    },
-    {
-      id : uuid(),
-      nombre: "Jeanmarie Quijada",
-      puesto: "Instructora en Alura Latam",
-      foto: "https://github.com/JeanmarieAluraLatam.png",
-      equipo: "Data Science",
-      fav: false
-    },
-    {
-      id : uuid(),
-      nombre: "Christian Velasco",
-      puesto: "Head de Alura e instructor",
-      foto: "https://github.com/christianpva.png",
-      equipo: "UX y Diseño",
-      fav: true
-    },
-    {
-      id : uuid(),
-      nombre: "Jose Gonzalez",
-      puesto: "Dev. FullStack",
-      foto: "https://github.com/JoseDarioGonzalezCha.png",
-      equipo: "Movil",
-      fav: false
-    },
+    }
   ]);
   // Lista de equipos
   const [equipos, actualizarEquipos] = useState([
